@@ -1,0 +1,19 @@
+{
+    "customerfilepath": "transactions\\customers\\",
+    "logfile": "transactions\\logs.txt",
+    "errorfile": "transactions\\errors.txt",
+    "fileformat": ".txt",
+    "starttime": "08:00",
+    "endtime": "08:00",
+    "daysdata": 1,
+    "requestencoding": "utf8",
+    "url": {
+        "server": "https://10.192.233.11:4443",
+        "login": "/login",
+        "namespaces": "/object/namespaces",
+        "billing": "/object/billing/namespace/"
+    },
+    "username": "aseapi",
+    "password": "Passw0rd123",
+    "headertokenkey": "x-sds-auth-token"
+}
